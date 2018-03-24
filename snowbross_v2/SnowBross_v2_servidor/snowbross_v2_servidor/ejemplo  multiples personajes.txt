@@ -1,0 +1,38 @@
+{
+    "escenario": {
+        "ancho-px": 900,
+        "alto-px": 300,
+        "ancho-un": 90,
+        "alto-un": 30,
+        "imagen_fondo": "imagenes/fondo.01.800x600.png",
+        "personaje": 		{
+					"x": 10,
+					"y": 5
+				  },
+	"personajes": [
+				{
+					"x": 20,
+					"y": 5
+				},
+				{
+					"x": 30,
+					"y": 5
+				},
+				{
+					"x": 40,
+					"y": 5
+				},
+			],
+        "personaje": 		{
+					"x": 50,
+					"y": 5
+				  },
+	"personajes": [
+				{
+					"x": 60,
+					"y": 5
+				}
+			]
+        
+    }
+}

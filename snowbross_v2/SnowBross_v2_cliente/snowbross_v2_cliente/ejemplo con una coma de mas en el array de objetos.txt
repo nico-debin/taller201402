@@ -1,0 +1,32 @@
+{
+
+    "escenario": {
+        "ancho-px":900,
+        "alto-px": 300,
+        "ancho-un": 90,
+        "alto-un": 30,
+        "imagen_fondo": "imagenes/fondo.01.800x600.png",
+        "personaje": {
+						"x": 99,
+						"y": 10
+					 },
+        "objetos": [
+
+
+		{
+                "tipo": "poli",
+                "lados": 7,
+                "x": 90,
+                "y": 20,
+                "escala": 2,
+                "color": "#000000",
+                "rot": 1,
+                "masa": 1,
+                "estatico": false
+            },
+
+
+	    
+        ]
+    }
+}

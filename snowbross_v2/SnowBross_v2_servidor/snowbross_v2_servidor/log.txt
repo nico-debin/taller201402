@@ -1,0 +1,10 @@
+2014-10-17 01:48:50 112| [WARN]| | Error parseando los datos, no existe el campo: personaje
+2014-10-17 01:48:50 122| [ERROR]| | No se pudo validar el escenario
+2014-10-17 01:48:50 140| [ERROR]| | No se pudo validar el escenario, verificar los campos de cada objeto
+2014-10-17 01:48:50 159| [INFO]| | Iniciando Servidor...
+2014-10-17 01:48:50 277| [INFO]| | Esperando clientes...
+
+2014-10-17 01:49:23 33814| [INFO]| | CONEXION ACEPTADA: nico
+2014-10-17 01:49:29 39876| [INFO]| | CONEXION ACEPTADA: f
+2014-10-17 01:50:11 81129| [INFO]| | CLIENTE f DESCONECTADO 
+2014-10-17 01:50:12 81978| [INFO]| | CLIENTE nico DESCONECTADO 

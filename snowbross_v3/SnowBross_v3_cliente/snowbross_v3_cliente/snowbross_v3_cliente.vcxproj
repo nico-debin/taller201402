@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{0C1393D2-8843-4860-9C8A-809859F242B8}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>snowbross_v3_cliente</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IgnoreImportLibrary>true</IgnoreImportLibrary>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../../../include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>ws2_32.lib;SDL2.lib;SDL2main.lib;SDL2_image.lib;SDL2_gfx.lib;SDL2_ttf.lib;SDL2_mixer.lib;Box2D.lib;jsoncpp.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OptimizeReferences>false</OptimizeReferences>
+      <EnableCOMDATFolding>false</EnableCOMDATFolding>
+      <AdditionalLibraryDirectories>../../../lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>/NODEFAULTLIB:MSVCRT %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="sonido\Bomba1.wav" />
+    <None Include="sonido\Bomba2.wav" />
+    <None Include="sonido\Bomba3.wav" />
+    <None Include="sonido\click.wav" />
+    <None Include="sonido\Musica.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BonusVelocidadVista.h" />
+    <ClInclude Include="BonusVidaVista.h" />
+    <ClInclude Include="Camara.h" />
+    <ClInclude Include="CirculoVista.h" />
+    <ClInclude Include="Cliente.h" />
+    <ClInclude Include="ConditionVariable.h" />
+    <ClInclude Include="Conexion.h" />
+    <ClInclude Include="ConexionCliente.h" />
+    <ClInclude Include="ConexionServidor.h" />
+    <ClInclude Include="Constantes.h" />
+    <ClInclude Include="ControladorCliente.h" />
+    <ClInclude Include="ControlSonido.h" />
+    <ClInclude Include="CuadradoVista.h" />
+    <ClInclude Include="DiabloVista.h" />
+    <ClInclude Include="DragonVista.h" />
+    <ClInclude Include="EscenarioVista.h" />
+    <ClInclude Include="EstadisticasJugadores.h" />
+    <ClInclude Include="estructuraDeDatos.h" />
+    <ClInclude Include="FuegoVista.h" />
+    <ClInclude Include="HexagonoVista.h" />
+    <ClInclude Include="Lock.h" />
+    <ClInclude Include="Logger.h" />
+    <ClInclude Include="NieveVista.h" />
+    <ClInclude Include="ParalelogramoVista.h" />
+    <ClInclude Include="PentagonoVista.h" />
+    <ClInclude Include="PersonajeVista.h" />
+    <ClInclude Include="PoligonoRegularVista.h" />
+    <ClInclude Include="ProyectilVista.h" />
+    <ClInclude Include="QueueLock.h" />
+    <ClInclude Include="RectanguloVista.h" />
+    <ClInclude Include="SDLController.h" />
+    <ClInclude Include="SnowBoyVista.h" />
+    <ClInclude Include="Sonido.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="Timer.h" />
+    <ClInclude Include="TrapecioVista.h" />
+    <ClInclude Include="TrianguloVista.h" />
+    <ClInclude Include="Utilities.h" />
+    <ClInclude Include="Vista.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BonusVelocidadVista.cpp" />
+    <ClCompile Include="BonusVidaVista.cpp" />
+    <ClCompile Include="Camara.cpp" />
+    <ClCompile Include="CirculoVista.cpp" />
+    <ClCompile Include="Cliente.cpp" />
+    <ClCompile Include="ConditionVariable.cpp" />
+    <ClCompile Include="Conexion.cpp" />
+    <ClCompile Include="ConexionCliente.cpp" />
+    <ClCompile Include="ConexionServidor.cpp" />
+    <ClCompile Include="ControladorCliente.cpp" />
+    <ClCompile Include="ControlSonido.cpp" />
+    <ClCompile Include="CuadradoVista.cpp" />
+    <ClCompile Include="DiabloVista.cpp" />
+    <ClCompile Include="DragonVista.cpp" />
+    <ClCompile Include="EscenarioVista.cpp" />
+    <ClCompile Include="EstadisticasJugadores.cpp" />
+    <ClCompile Include="FuegoVista.cpp" />
+    <ClCompile Include="HexagonoVista.cpp" />
+    <ClCompile Include="Lock.cpp" />
+    <ClCompile Include="Logger.cpp" />
+    <ClCompile Include="NieveVista.cpp" />
+    <ClCompile Include="ParalelogramoVista.cpp" />
+    <ClCompile Include="PentagonoVista.cpp" />
+    <ClCompile Include="PersonajeVista.cpp" />
+    <ClCompile Include="PoligonoRegularVista.cpp" />
+    <ClCompile Include="ProyectilVista.cpp" />
+    <ClCompile Include="RectanguloVista.cpp" />
+    <ClCompile Include="SDLController.cpp" />
+    <ClCompile Include="SnowBoyVista.cpp" />
+    <ClCompile Include="snowbross_v3_cliente.cpp" />
+    <ClCompile Include="Sonido.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp" />
+    <ClCompile Include="TrapecioVista.cpp" />
+    <ClCompile Include="TrianguloVista.cpp" />
+    <ClCompile Include="Utilities.cpp" />
+    <ClCompile Include="Vista.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

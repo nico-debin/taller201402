@@ -1,0 +1,184 @@
+{
+    "escenarios": [
+		{
+			"ancho-px": 800,
+			"alto-px": 500,
+			"ancho-un": 80,
+			"alto-un": 50,
+			"max-jugadores": 1,
+			"imagen_fondo": "imagenes/fondo.03.800x600.png",
+			"objetos": [
+				{
+                "tipo": "rect",
+				"x": 40,
+				"y": 45,
+				"ancho": 50,
+				"alto": 1.5,
+				"color": "#0000FF",
+				"rot": 0,
+				"masa": 3,
+				"estatico": true
+            },
+			{
+                "tipo": "rect",
+				"x": 30,
+				"y": 35,
+				"ancho": 50,
+				"alto": 1.5,
+				"color": "#0000FF",
+				"rot": 0,
+				"masa": 3,
+				"estatico": true
+            },
+			
+			{
+                "tipo": "rect",
+				"x": 75,
+				"y": 35,
+				"ancho": 10,
+				"alto": 1.5,
+				"color": "#0000FF",
+				"rot": 0,
+				"masa": 3,
+				"estatico": true
+            },
+			{
+                "tipo": "rect",
+				"x": 40,
+				"y": 25,
+				"ancho": 50,
+				"alto": 1.5,
+				"color": "#0000FF",
+				"rot": 0,
+				"masa": 3,
+				"estatico": true
+            }
+			,
+			{
+                "tipo": "rect",
+				"x": 30,
+				"y": 15,
+				"ancho": 50,
+				"alto": 1.5,
+				"color": "#0000FF",
+				"rot": 0,
+				"masa": 3,
+				"estatico": true
+            },
+			{
+                "tipo": "rect",
+				"x": 75,
+				"y": 15,
+				"ancho": 10,
+				"alto": 1.5,
+				"color": "#0000FF",
+				"rot": 0,
+				"masa": 3,
+				"estatico": true
+            },
+			
+			{
+                "tipo": "rect",
+				"x": 40,
+				"y": 5,
+				"ancho": 50,
+				"alto": 1.5,
+				"color": "#0000FF",
+				"rot": 0,
+				"masa": 3,
+				"estatico": true
+            }
+				
+			],
+			"enemigos":[
+				{
+					"tipo": "diablo",
+					"x": 15,
+					"y" : 40
+				},
+				{
+					"tipo": "dragon",
+					"x": 40,
+					"y" : 30
+				},
+				{
+					"tipo": "dragon",
+					"x": 45,
+					"y" : 30
+				},
+				{
+					"tipo": "dragon",
+					"x": 30,
+					"y" : 30
+				},
+				{
+					"tipo": "diablo",
+					"x": 50,
+					"y" : 40
+				}
+			]		
+		},
+		
+		{
+			"ancho-px": 800,
+			"alto-px": 500,
+			"ancho-un": 80,
+			"alto-un": 50,
+			"max-jugadores": 1,
+			"imagen_fondo": "imagenes/fondo.02.927x500.png",
+			"objetos": [
+
+				{
+					"tipo": "rect",
+					"x": 40,
+					"y": 1.7,
+					"ancho": 79.5,
+					"alto": 1.5,
+					"color": "#01FF10",
+					"rot": 0,
+					"masa": 3,
+					"estatico": true
+				},
+				{
+					"tipo": "rect",
+					"x": 40,
+					"y": 12.7,
+					"ancho": 60,
+					"alto": 1.5,
+					"color": "#01FF10",
+					"rot": 0,
+					"masa": 3,
+					"estatico": true
+				}
+				
+			],
+			"enemigos":[
+				{
+					"tipo": "diablo",
+					"x": 15,
+					"y" : 40
+				},
+				{
+					"tipo": "dragon",
+					"x": 40,
+					"y" : 30
+				},
+				{
+					"tipo": "dragon",
+					"x": 45,
+					"y" : 30
+				},
+				{
+					"tipo": "dragon",
+					"x": 30,
+					"y" : 30
+				},
+				{
+					"tipo": "diablo",
+					"x": 50,
+					"y" : 40
+				}
+			]
+		}
+	]
+}

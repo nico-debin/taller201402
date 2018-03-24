@@ -1,0 +1,41 @@
+{
+    "escenario": {
+        "ancho-px": 900,
+        "alto-px": 300,
+        "ancho-un": 90,
+        "alto-un": 30,
+        "imagen_fondo": "imagenes/fondo.01.800x600.png",
+        "personaje": {
+						"x": 100,
+						"y": 100
+					 },
+        "objetos": [
+
+			    {
+                "tipo": "rect",
+                "x": 41,
+                "y": 10,
+                "ancho": 20,
+                "alto": 20,
+                "color": "#000r01",
+                "rot": 30,
+                "masa": 3,
+                "estatico": true
+            },
+			    {
+                "tipo": "circulo",
+                "x": 15,
+                "y": 20,
+                "ancho": 8,
+                "alto": 4,
+                "escala": 1,
+		"radio": 1,
+                "color": "#FF0000",
+                "rot": 90,
+                "masa": 1,
+                "estatico": false
+            }
+
+        ]
+    }
+}

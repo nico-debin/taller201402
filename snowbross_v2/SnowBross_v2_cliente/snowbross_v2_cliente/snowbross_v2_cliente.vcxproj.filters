@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Vista">
+      <UniqueIdentifier>{3f012c48-081f-4a08-9aef-d9fd7cd68cd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Vista">
+      <UniqueIdentifier>{280f29ae-3b25-4658-bf3e-32e4cc71245f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Modelo">
+      <UniqueIdentifier>{ab7b5bc1-eaa2-4f21-bf49-3899990d8f43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Controlador">
+      <UniqueIdentifier>{01add897-593d-49cd-a48f-36551e3674fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Controlador">
+      <UniqueIdentifier>{3e7b5c48-09ff-48d0-9468-1996c7c8ca39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Modelo">
+      <UniqueIdentifier>{53c543d2-3937-4e81-9b69-896c4cb9ec92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\tests">
+      <UniqueIdentifier>{69a1a089-c194-4e1b-b9e2-fcdcc29cf9f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\tests">
+      <UniqueIdentifier>{46cd39ff-67a7-433b-9967-ee07bcee14ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Servicios">
+      <UniqueIdentifier>{033f660a-771a-4c78-a542-5f0ab6547f65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Servicios">
+      <UniqueIdentifier>{44a3acec-d5bc-4ef7-9a33-60efd32ff111}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ControladorCliente.h">
+      <Filter>Header Files\Controlador</Filter>
+    </ClInclude>
+    <ClInclude Include="Vista.h">
+      <Filter>Header Files\Vista</Filter>
+    </ClInclude>
+    <ClInclude Include="estructuraDeDatos.h">
+      <Filter>Header Files\Modelo</Filter>
+    </ClInclude>
+    <ClInclude Include="Constantes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CirculoVista.h">
+      <Filter>Header Files\Vista</Filter>
+    </ClInclude>
+    <ClInclude Include="EscenarioVista.h">
+      <Filter>Header Files\Vista</Filter>
+    </ClInclude>
+    <ClInclude Include="Logger.h">
+      <Filter>Header Files\Servicios</Filter>
+    </ClInclude>
+    <ClInclude Include="TestCirculoVista.h">
+      <Filter>Header Files\tests</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities.h">
+      <Filter>Header Files\Modelo</Filter>
+    </ClInclude>
+    <ClInclude Include="SDLController.h">
+      <Filter>Header Files\Controlador</Filter>
+    </ClInclude>
+    <ClInclude Include="RectanguloVista.h">
+      <Filter>Header Files\Vista</Filter>
+    </ClInclude>
+    <ClInclude Include="TestFigurasVista.h">
+      <Filter>Header Files\tests</Filter>
+    </ClInclude>
+    <ClInclude Include="TrianguloVista.h">
+      <Filter>Header Files\Vista</Filter>
+    </ClInclude>
+    <ClInclude Include="PentagonoVista.h">
+      <Filter>Header Files\Vista</Filter>
+    </ClInclude>
+    <ClInclude Include="HexagonoVista.h">
+      <Filter>Header Files\Vista</Filter>
+    </ClInclude>
+    <ClInclude Include="ParalelogramoVista.h">
+      <Filter>Header Files\Vista</Filter>
+    </ClInclude>
+    <ClInclude Include="TrapecioVista.h">
+      <Filter>Header Files\Vista</Filter>
+    </ClInclude>
+    <ClInclude Include="PoligonoRegularVista.h">
+      <Filter>Header Files\Vista</Filter>
+    </ClInclude>
+    <ClInclude Include="PersonajeVista.h">
+      <Filter>Header Files\Vista</Filter>
+    </ClInclude>
+    <ClInclude Include="SnowBoyVista.h">
+      <Filter>Header Files\Vista</Filter>
+    </ClInclude>
+    <ClInclude Include="TestPersonajeVista.h">
+      <Filter>Header Files\tests</Filter>
+    </ClInclude>
+    <ClInclude Include="CuadradoVista.h">
+      <Filter>Header Files\Vista</Filter>
+    </ClInclude>
+    <ClInclude Include="Lock.h">
+      <Filter>Header Files\Servicios</Filter>
+    </ClInclude>
+    <ClInclude Include="Conexion.h">
+      <Filter>Header Files\Servicios</Filter>
+    </ClInclude>
+    <ClInclude Include="ConexionCliente.h">
+      <Filter>Header Files\Servicios</Filter>
+    </ClInclude>
+    <ClInclude Include="ConexionServidor.h">
+      <Filter>Header Files\Servicios</Filter>
+    </ClInclude>
+    <ClInclude Include="Cliente.h">
+      <Filter>Header Files\Controlador</Filter>
+    </ClInclude>
+    <ClInclude Include="Camara.h">
+      <Filter>Header Files\Vista</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Header Files\Servicios</Filter>
+    </ClInclude>
+    <ClInclude Include="ConditionVariable.h">
+      <Filter>Header Files\Servicios</Filter>
+    </ClInclude>
+    <ClInclude Include="QueueLock.h">
+      <Filter>Header Files\Servicios</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="snowbross_v2_cliente.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ControladorCliente.cpp">
+      <Filter>Source Files\Controlador</Filter>
+    </ClCompile>
+    <ClCompile Include="Vista.cpp">
+      <Filter>Source Files\Vista</Filter>
+    </ClCompile>
+    <ClCompile Include="CirculoVista.cpp">
+      <Filter>Source Files\Vista</Filter>
+    </ClCompile>
+    <ClCompile Include="EscenarioVista.cpp">
+      <Filter>Source Files\Vista</Filter>
+    </ClCompile>
+    <ClCompile Include="TestCirculoVista.cpp">
+      <Filter>Source Files\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger.cpp">
+      <Filter>Source Files\Servicios</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities.cpp">
+      <Filter>Source Files\Modelo</Filter>
+    </ClCompile>
+    <ClCompile Include="SDLController.cpp">
+      <Filter>Source Files\Controlador</Filter>
+    </ClCompile>
+    <ClCompile Include="RectanguloVista.cpp">
+      <Filter>Source Files\Vista</Filter>
+    </ClCompile>
+    <ClCompile Include="TestFigurasVista.cpp">
+      <Filter>Source Files\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="TrianguloVista.cpp">
+      <Filter>Source Files\Vista</Filter>
+    </ClCompile>
+    <ClCompile Include="PentagonoVista.cpp">
+      <Filter>Source Files\Vista</Filter>
+    </ClCompile>
+    <ClCompile Include="HexagonoVista.cpp">
+      <Filter>Source Files\Vista</Filter>
+    </ClCompile>
+    <ClCompile Include="ParalelogramoVista.cpp">
+      <Filter>Source Files\Vista</Filter>
+    </ClCompile>
+    <ClCompile Include="TrapecioVista.cpp">
+      <Filter>Source Files\Vista</Filter>
+    </ClCompile>
+    <ClCompile Include="PoligonoRegularVista.cpp">
+      <Filter>Source Files\Vista</Filter>
+    </ClCompile>
+    <ClCompile Include="PersonajeVista.cpp">
+      <Filter>Source Files\Vista</Filter>
+    </ClCompile>
+    <ClCompile Include="SnowBoyVista.cpp">
+      <Filter>Source Files\Vista</Filter>
+    </ClCompile>
+    <ClCompile Include="TestPersonajeVista.cpp">
+      <Filter>Source Files\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="CuadradoVista.cpp">
+      <Filter>Source Files\Vista</Filter>
+    </ClCompile>
+    <ClCompile Include="Lock.cpp">
+      <Filter>Source Files\Servicios</Filter>
+    </ClCompile>
+    <ClCompile Include="Conexion.cpp">
+      <Filter>Source Files\Servicios</Filter>
+    </ClCompile>
+    <ClCompile Include="ConexionCliente.cpp">
+      <Filter>Source Files\Servicios</Filter>
+    </ClCompile>
+    <ClCompile Include="ConexionServidor.cpp">
+      <Filter>Source Files\Servicios</Filter>
+    </ClCompile>
+    <ClCompile Include="Cliente.cpp">
+      <Filter>Source Files\Controlador</Filter>
+    </ClCompile>
+    <ClCompile Include="Camara.cpp">
+      <Filter>Source Files\Vista</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Source Files\Servicios</Filter>
+    </ClCompile>
+    <ClCompile Include="ConditionVariable.cpp">
+      <Filter>Source Files\Servicios</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

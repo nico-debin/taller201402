@@ -1,0 +1,64 @@
+{
+    "escenario": {
+        "ancho-px": 900,
+        "alto-px": 300,
+        "ancho-un": 90,
+        "alto-un": 30,
+        "imagen_fondo": "imagenes/fondo.01.800x600.png",
+        "objetos": [
+
+			    {
+                "tipo": "rect",
+                "x": 41,
+                "y": 3,
+                "ancho": 20,
+                "alto": -5,
+                "color": "#000r01",
+                "rot": 0,
+                "masa": 3,
+                "estatico": true
+            },
+
+			    {
+                "tipo": "rect",
+                "x": 21,
+                "y": 10,
+                "ancho": 7,
+                "alto": -5,
+                "color": "#00fff1",
+                "rot": 90,
+                "masa": 8,
+                "estatico": false
+            },
+            {  
+		"tipo": "rect",
+                "x": 21,
+                "y": -1,
+                "ancho": 7,
+                "alto": 5,
+                "color": "#0000ff",
+                "rot": 90,
+                "masa": 8,
+                "estatico": false
+            },
+
+	   {
+		"tipo": "trapecio",
+                "x": 60,
+                "y": -2,
+                "ancho": 28,
+                "alto": 10,
+                "color": "#EA0000",
+                "rot": 0,
+                "masa": 1,
+                "estatico": false,
+				"escala": 5,
+				"baseMayor":18,
+				"baseMenor":2,
+				"angulo_1": 30,
+				"angulo_2":40
+	    }
+	    
+        ]
+    }
+}
